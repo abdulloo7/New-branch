@@ -558,12 +558,16 @@ video {
   margin-top: 50px;
 }
 
-.mt-\[\] {
-  margin-top: ;
-}
-
 .mt-\[90px\] {
   margin-top: 90px;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
+.mt-\[180px\] {
+  margin-top: 180px;
 }
 
 .flex {
@@ -584,6 +588,22 @@ video {
 
 .h-\[70px\] {
   height: 70px;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[3\] {
+  height: 3;
+}
+
+.h-\[340px\] {
+  height: 340px;
+}
+
+.h-\[60px\] {
+  height: 60px;
 }
 
 .w-\[130px\] {
@@ -614,12 +634,28 @@ video {
   width: ;
 }
 
-.w-\[0px\] {
-  width: 0px;
+.w-\[320px\] {
+  width: 320px;
+}
+
+.w-\[30px\] {
+  width: 30px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[280px\] {
+  width: 280px;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -642,8 +678,16 @@ video {
   gap: 15px;
 }
 
+.gap-\[20px\] {
+  gap: 20px;
+}
+
 .gap-\[25px\] {
   gap: 25px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
 }
 
 .gap-\[50px\] {
@@ -654,20 +698,12 @@ video {
   gap: ;
 }
 
-.gap-\[19px\] {
-  gap: 19px;
+.gap-\[10px\] {
+  gap: 10px;
 }
 
-.gap-\[20px\] {
-  gap: 20px;
-}
-
-.gap-\[40px\] {
-  gap: 40px;
-}
-
-.gap-\[30px\] {
-  gap: 30px;
+.gap-\[0px\] {
+  gap: 0px;
 }
 
 .rounded-\[10px\] {
@@ -678,12 +714,24 @@ video {
   border-radius: 5px;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .border-\[1\.2px\] {
   border-width: 1.2px;
 }
 
 .border-\[1px\] {
   border-width: 1px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-\[2px\] {
+  border-width: 2px;
 }
 
 .border-b-\[2px\] {
@@ -715,8 +763,16 @@ video {
   background-color: rgb(214 214 238 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
 .pb-\[20px\] {
   padding-bottom: 20px;
+}
+
+.pl-\[15px\] {
+  padding-left: 15px;
 }
 
 .text-\[13px\] {
@@ -759,12 +815,18 @@ video {
   color: rgb(156 163 175 / var(--tw-text-opacity, 1));
 }
 
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
